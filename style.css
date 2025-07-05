@@ -98,18 +98,31 @@ body{
 
 
 /* story */
-.storyimg img{
-  width: 500px;
-  height: auto;
+.story{
+  padding: 20px;
+  overflow: auto; /* This ensures the container contains floated elements */
+}
+
+.storyimg{
   float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.storyimg img{
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
 }
 
 .storyinfo{
   font-size: 18px;
-
+  text-align: justify;
 }
+
 .storyhead{
   font-size: 32px;
   color: red;
+  margin-bottom: 15px;
 }
 
