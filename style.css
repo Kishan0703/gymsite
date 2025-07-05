@@ -97,3 +97,19 @@ body{
 }
 
 
+/* story */
+.storyimg img{
+  width: 500px;
+  height: auto;
+  float: left;
+}
+
+.storyinfo{
+  font-size: 18px;
+
+}
+.storyhead{
+  font-size: 32px;
+  color: red;
+}
+
