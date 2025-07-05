@@ -110,18 +110,18 @@ body{
 }
 
 .storyimg img{
-  width: 300px;
+  width:500px;
   height: auto;
   border-radius: 8px;
 }
 
 .storyinfo{
-  font-size: 18px;
+  font-size: 22px;
   text-align: justify;
 }
 
 .storyhead{
-  font-size: 32px;
+  font-size: 38px;
   color: red;
   margin-bottom: 15px;
 }
