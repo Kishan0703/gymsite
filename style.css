@@ -1,4 +1,55 @@
-html {
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.navcontaints{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #5a5858;
+  height: 90px;
+}
+
+.info a{
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  margin: 12px;
+}
+
+.logo{
+  color: #1100ff;
+  font-size: 40px;
+}
+
+
+/* center */
+.greetings img{
   height: 100%;
   width: 100%;
+  object-fit: cover;
+
 }
+
+.greetsent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.greetsent h1{
+  color: red;
+  margin-top: 25px;
+  font-size: 44px;
+  font-weight: 1400;
+}
+
+.greetsent h2{
+  margin-top: 10px;
+}
+
+.centerimg{
+  display: grid;
+  
+}
+
